@@ -7,8 +7,25 @@
     
     <title>Data Album</title>
 </head>
-<body style="background-image: url(https://www.dreamers.id/img_artikel/596IdolK-PopBerbakatYangMenggambarCoverAlbumMerekaSendiri.jpg)">;
-    <h1 class="text-center mb-4">Pemesanan Album KPOP</h1>
+<body>
+<style>
+       body{
+	  background-image: url(https://www.dreamers.id/img_artikel/596IdolK-PopBerbakatYangMenggambarCoverAlbumMerekaSendiri.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+       }
+       h1{
+      text-align: center;
+	  background-color: rgb(189,187,215);
+      
+	  border-radius: 100px;
+	  width: 50%;
+      height: 50px
+	  font-size: 60px;
+	  font-family: Serif;
+       }
+</style>
+ <h1 class="text-center mb-4">Pemesanan Album KPOP</h1>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
     <div class="container">
@@ -42,7 +59,7 @@
                             <label for="exampleInputEmail1" class="form-label">Versi</label>
                             <input type="text" name="versi" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
                         </div>
-                    <center><button type="submit" class="btn btn-primary">Tambahkan</button></center>
+                    <center><button type="submit" class="btn btn-primary">Edit Data</button></center>
                     </form>
                 </div>
             </div>

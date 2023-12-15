@@ -17,19 +17,19 @@
        }
        h1{
       text-align: center;
-	  background-color: rgb(245, 255, 250);
-      border-align: center;
-	  /* border-radius: 60px; */
+	  background-color: rgb(189,187,215);
+      
+	  border-radius: 100px;
 	  width: 50%;
       height: 50px
 	  font-size: 60px;
-	  font-family: Consolas;
+	  font-family: Serif;
        }
        table{
 	margin: auto;
 	padding-bottom: 50px;
 	color: #000000;
-	background: #f9dfff;
+	background: #bdbbd7;
 	height: 1px;
 	border-radius: 0px;
 	width: 40%;
