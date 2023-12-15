@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+    }
+    
+    body {
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 20px 100px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 99;
+    }
+
+    .logo {
+        font-size: 32px;
+        color: saddlebrown;
+    }
+
+
+    .wrapper .from-box h2 {
+        font-size: 32px;
+        color: saddlebrown;
+        text-align: center;
+    }
+
+    .wrapper .from-box button {
+        color: saddlebrown;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        background: white;
+        border-radius: 6px;
+        border: 2px;
+    
+    }
+    
